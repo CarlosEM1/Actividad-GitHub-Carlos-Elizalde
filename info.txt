@@ -1,0 +1,4 @@
+# Carlos Francisco Elizalde Madera
+## 09 de Septiembre de 2026
+### el objetivo es poder aprender a usar github para mejor facilidad a la hora de los proyectos.
+#### Un Pull Request es una solicitud que un colaborador realiza al propietario de un repositorio para que incorpore los cambios realizados en una rama específica. Es una herramienta clave en el desarrollo colaborativo, especialmente en plataformas como GitHub, GitLab o Bitbucket.
