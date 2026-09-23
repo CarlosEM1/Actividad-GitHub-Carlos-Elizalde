@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <title>primera pagina html</title>
+     </head>
+  <body>
+     <h1>CarlosFranciscoElizaldeMadera</h1>
+       <h2>Practica 1</h2>
+     <p>Soy Carlos tengo 19 años y estudio la carrera de Lic.en informatica 
+        , de las cosas que me gustan hacer es jugar videojuegos de todo tipo 
+          como también me gusta el futbol y me gusta pasármela chido con mis amigos </p>
+     <p>pues mis interes son poder ejercer la carrera y poder mantenerme economicamente y poder lograr algo chido</p>
+
+    <ul>
+        <li>jugar videojuegos</li>
+        <li>pasarla chido con amigos</li>
+        <li>ver futbol</li>
+        <li>salir a pasear</li>
+        <li>comer lo que me gusta</li>
+     </ul>
+ <br>
+   <h2>Actividades que realizo normalmente</h2>
+      <ol>
+         <li>Jugar</li>
+        <li>Comer</li>
+        <li>Dormir</li>
+         <li>Bañarme</li>
+          <li>Ayudar a mi mama</li>
+ </br>
+  <hr>
+       <a href="https://www.youtube.com/">visitar youtube</a> 
+</hr>
+<hr>
+       <img src="R.jpg" alt="la pasion del futbol"> 
+</hr>
+
+ <h2> tablas de peliculas</h2>
+  <P>En esta sección encontrarás una tabla con algunas de mis películas favoritas, incluyendo el día en que planeo verlas, la hora, el lugar y un enlace para más información</P>
+ <table border="1" cellpadding="10">
+    <tr>
+      <th>Día</th>
+      <th>Película</th>
+      <th>Hora</th>
+      <th>Lugar</th>
+    </tr>
+    <tr>
+      <td>Lunes</td>
+      <td>COCO</td>
+      <td>11:00 PM</td>
+      <td><a href="https://es.wikipedia.org/wiki/Inception">Ver más</a></td>
+    </tr>
+    <tr>
+      <td>Martes</td>
+      <td>Ghostland</td>
+      <td>7:30 PM</td>
+      <td>en mi casa</td>
+    </tr>
+    <tr>
+      <td>Miércoles</td>
+      <td>Cars</td>
+      <td>9:00 PM</td>
+      <td>en mi casa</td>
+    </tr>
+    <tr>
+      <td>Jueves</td>
+      <td>Zootopia 2</td>
+      <td>8:15 PM</td>
+      <td>en mi casa</td>
+    </tr>
+    <tr>
+      <td>Viernes</td>
+      <td>mi villano favorito</td>
+      <td>10:00 PM</td>
+      <td>en mi casa</td>
+    </tr>
+  </table>
+ <img src="peli1.jpg" alt="Algunas peliculas que e visto">
+
+<h2> Formulario de registro</h2>
+<p> Este formulario pedirá tu nombre, correo, contraseña, edad, fecha de nacimiento y algunas preferencias  </p>
+<form>
+    <br>
+    <label>Nombre completo:</label>
+    <input type="text">
+
+    <label>Correo electrónico:</label>
+    <input type="email">
+
+    <label>Contraseña:</label>
+    <input type="password">
+
+    <label>Edad:</label>
+    <input type="number">
+
+    <label>Fecha de nacimiento:</label>
+    <input type="date">
+
+    <p>Selecciona tu turno:</p>
+    <input type="radio"> Matutino
+    <input type="radio"> Vespertino
+    
+     <p>Nivel academico:</p>
+    <input type="radio" > Secundaria
+    <input type="radio" > Preparatoria
+    <input type="radio" > Universidad
+    
+    <p>Intereses</p>
+    <input type="checkbox"> Tecnologia
+    <input type="checkbox"> Artes
+    <input type="checkbox"> Deportes
+  </br>
+  <br>
+  <select>
+    <label>Carrera</label>
+     <option>lic.en informatica</option>
+     <option>Arquiterura</option>
+     <option>Madicina</option>
+     <option>Ingenieria Civil</option>
+     <option>Administracion de Empresas</option>
+   </select>
+</br>
+<br>
+   <label>Sugerencias</label>
+     <textarea></textarea>
+   </br> 
+   <br> 
+     <button type="submit">Enviar</button>
+     
+     <button type="reset">Limpiar</button>
+    </br>
+
+
+
+
+    <title>Formulario de Registro</title>
+
+
+    <h1>Formulario de Registro</h1>
+
+    <form id="formRegistro">
+
+        <!-- Nombre completo -->
+        <label for="nombre">Nombre completo:</label>
+        <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escribe tu nombre completo"
+            required
+        >
+
+        <br><br>
+
+        <!-- Correo electrónico -->
+        <label for="correo">Correo electrónico:</label>
+        <input
+            type="email"
+            id="correo"
+            name="correo"
+            placeholder="ejemplo@correo.com"
+            required
+        >
+
+        <br><br>
+
+        <!-- Contraseña -->
+        <label for="contrasena">Contraseña:</label>
+        <input
+            type="password"
+            id="contrasena"
+            name="contrasena"
+            placeholder="Escribe tu contraseña"
+            required
+        >
+
+        <br><br>
+
+        <!-- Edad -->
+        <label for="edad">Edad:</label>
+        <input
+            type="number"
+            id="edad"
+            name="edad"
+            min="18"
+            max="100"
+            required
+        >
+
+        <br><br>
+
+        <!-- Fecha de nacimiento -->
+        <label for="fechaNacimiento">Fecha de nacimiento:</label>
+        <input
+            type="date"
+            id="fechaNacimiento"
+            name="fechaNacimiento"
+            required
+        >
+
+        <br><br>
+
+        <!-- Género -->
+        <p>Género:</p>
+
+        <input
+            type="radio"
+            id="masculino"
+            name="genero"
+            value="masculino"
+            required
+        >
+        <label for="masculino">Masculino</label>
+
+        <input
+            type="radio"
+            id="femenino"
+            name="genero"
+            value="femenino"
+        >
+        <label for="femenino">Femenino</label>
+
+        <br><br>
+
+        <!-- Intereses -->
+        <p>Intereses:</p>
+
+        <input
+            type="checkbox"
+            id="deportes"
+            name="intereses"
+            value="deportes"
+        >
+        <label for="deportes">Deportes</label>
+
+        <input
+            type="checkbox"
+            id="musica"
+            name="intereses"
+            value="musica"
+        >
+        <label for="musica">Música</label>
+
+        <input
+            type="checkbox"
+            id="videojuegos"
+            name="intereses"
+            value="videojuegos"
+        >
+        <label for="videojuegos">Videojuegos</label>
+
+        <br><br>
+
+      <!-- Fotografía de perfil --> <label for="fotografia">Fotografía de perfil:</label> <input type="file" id="fotografia" name="fotografia"
+        <br><br>
+
+        <!-- Color favorito -->
+        <label for="colorFavorito">Color favorito:</label>
+        <input
+            type="color"
+            id="colorFavorito"
+            name="colorFavorito"
+            value="#0000ff"
+        
+
+        <br><br>
+
+        <!-- Nivel de satisfacción -->
+        <label for="satisfaccion">Nivel de satisfacción:</label>
+        <input
+            type="range"
+            id="satisfaccion"
+            name="satisfaccion"
+            min="1"
+            max="10"
+            value="5"
+        >
+
+        <br><br>
+
+        <!-- Botón Registrar -->
+        <button type="submit">Registrar</button>
+
+    </form>
+
+
+
+   </body>
+</html>
+          
