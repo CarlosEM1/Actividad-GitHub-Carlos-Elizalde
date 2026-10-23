@@ -1,0 +1,396 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b0d16;
+    color: #f4f6ff;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.acento {
+    color: #a6ff4d;
+}
+
+/* ENCABEZADO */
+
+.encabezado {
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    background-color: #131725;
+    border-bottom: 1px solid #2b3145;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.menu a {
+    color: #c0c5d6;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #a6ff4d;
+}
+
+/* SECCIÓN PRINCIPAL */
+
+.principal {
+    padding: 70px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+    background: linear-gradient(135deg, #111522, #20283b);
+}
+
+.principal-texto {
+    flex: 1;
+}
+
+.etiqueta {
+    color: #a6ff4d;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.principal h1 {
+    margin: 15px 0;
+    font-size: 55px;
+    line-height: 1.15;
+}
+
+.principal-texto > p:not(.etiqueta) {
+    max-width: 500px;
+    color: #b6bdd0;
+    margin-bottom: 28px;
+}
+
+.principal-imagen {
+    flex: 1;
+}
+
+.principal-imagen img {
+    width: 100%;
+    border: 2px solid #303951;
+    border-radius: 18px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 12px 22px;
+    background-color: #a6ff4d;
+    color: #10140b;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #c1ff83;
+    transform: translateY(-3px);
+}
+
+/* CATÁLOGO */
+
+.catalogo {
+    padding: 65px 7%;
+}
+
+.titulo-seccion {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.titulo-seccion h2 {
+    margin: 10px 0;
+    font-size: 35px;
+}
+
+.titulo-seccion > p:last-child {
+    color: #a7aec3;
+}
+
+/* TARJETAS Y FLEXBOX */
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.tarjeta {
+    width: calc((100% - 50px) / 3);
+    min-width: 230px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #131725;
+    border: 1px solid #2b3145;
+    border-radius: 14px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.tarjeta:hover {
+    transform: translateY(-6px);
+    border-color: #a6ff4d;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.tarjeta-contenido {
+    padding: 20px;
+}
+
+.categoria {
+    color: #a6ff4d;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.tarjeta h3 {
+    margin: 10px 0;
+    font-size: 21px;
+}
+
+.tarjeta p {
+    min-height: 70px;
+    color: #a7aec3;
+    font-size: 14px;
+}
+
+.enlace {
+    display: inline-block;
+    margin-top: 8px;
+    color: #a6ff4d;
+    font-weight: bold;
+}
+
+.enlace:hover {
+    color: #ffffff;
+}
+
+/* NOSOTROS */
+
+.nosotros {
+    margin: 0 7% 65px;
+    padding: 40px;
+    background-color: #151a29;
+    border: 1px solid #2b3145;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.nosotros h2 {
+    font-size: 30px;
+}
+
+.nosotros p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #b6bdd0;
+}
+
+/* CONTACTO */
+
+.contacto {
+    padding: 40px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    background-color: #1b2032;
+}
+
+.contacto h2 {
+    margin-bottom: 5px;
+}
+
+.contacto p {
+    margin-bottom: 0;
+    color: #b6bdd0;
+}
+
+/* PIE DE PÁGINA */
+
+.pie {
+    padding: 25px 7%;
+    background-color: #090b12;
+    border-top: 1px solid #2b3145;
+    text-align: center;
+    color: #a7aec3;
+    font-size: 13px;
+}
+
+/* TABLETAS */
+
+@media (max-width: 900px) {
+    .encabezado {
+        padding: 18px 4%;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    .principal {
+        padding: 50px 5%;
+        gap: 25px;
+    }
+
+    .principal h1 {
+        font-size: 42px;
+    }
+
+    .catalogo {
+        padding: 50px 5%;
+    }
+
+    .tarjeta {
+        width: calc((100% - 25px) / 2);
+    }
+}
+
+/* CELULARES */
+
+@media (max-width: 600px) {
+
+    /* El encabezado pasa a columna */
+    .encabezado {
+        flex-direction: column;
+        padding: 20px 5%;
+        gap: 18px;
+    }
+
+    .menu {
+        justify-content: center;
+        gap: 10px 18px;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+
+    /* La sección principal pasa a columna */
+    .principal {
+        flex-direction: column;
+        padding: 40px 6%;
+        text-align: center;
+    }
+
+    .principal h1 {
+        font-size: 36px;
+    }
+
+    .principal-texto > p:not(.etiqueta) {
+        font-size: 14px;
+    }
+
+    .principal-imagen img {
+        width: 100%;
+    }
+
+    /* Las tarjetas se muestran una debajo de otra */
+    .catalogo {
+        padding: 45px 6%;
+    }
+
+    .titulo-seccion h2 {
+        font-size: 27px;
+    }
+
+    .contenedor-tarjetas {
+        flex-direction: column;
+        gap: 22px;
+    }
+
+    .tarjeta {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .tarjeta img {
+        height: 210px;
+    }
+
+    .tarjeta p {
+        min-height: 0;
+    }
+
+    /* Ajuste de la sección nosotros */
+    .nosotros {
+        margin: 0 6% 40px;
+        padding: 25px 18px;
+    }
+
+    .nosotros h2 {
+        font-size: 25px;
+    }
+
+    /* El contacto también pasa a columna */
+    .contacto {
+        padding: 30px 6%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contacto h2 {
+        font-size: 24px;
+    }
+
+    .pie {
+        padding: 20px 5%;
+        font-size: 12px;
+    }
+}

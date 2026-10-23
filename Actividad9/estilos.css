@@ -1,0 +1,92 @@
+```css
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #eef2f7;
+    color: #263238;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: #263238;
+    color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+/* Contenedor de las tarjetas */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Modelo de caja: Box Model */
+.tarjeta {
+    width: 300px;
+    padding: 15px;
+    border: 3px solid #1565c0;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Imagen de cada tarjeta */
+.tarjeta img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Títulos */
+.tarjeta h2 {
+    color: #1565c0;
+    font-size: 23px;
+    font-family: Arial, sans-serif;
+}
+
+/* Párrafos */
+.tarjeta p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #424242;
+}
+
+/* Enlaces */
+.tarjeta a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #1565c0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.tarjeta a:hover {
+    background-color: #0d47a1;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    color: #555;
+}
+```

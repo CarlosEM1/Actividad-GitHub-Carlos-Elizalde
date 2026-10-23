@@ -1,0 +1,51 @@
+.titulo {
+    background-color: #1e3a5f;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+}
+
+.menu {
+    background-color: #d9eaf7;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.menu a {
+    color: #12344d;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 12px;
+}
+
+.contenido {
+    background-color: #f4f4f4;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 15px;
+}
+
+.tarjeta {
+    background-color: white;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 2px solid #7aa7c7;
+    padding: 18px;
+    margin: 15px;
+}
+
+.destacado {
+    background-color: #fff1b8;
+    color: #704d00;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #d6aa32;
+    padding: 15px;
+    margin: 12px;
+}
